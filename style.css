@@ -1,0 +1,107 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 40px;
+    padding: 0;
+    background-color: #32566d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.resume-container {
+    background: #b8d2e5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(202, 241, 246, 0.3);
+    max-width: 400px;
+    width: 100%;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    color: #122e3b;
+}
+.skill {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3498db; /* Default color */
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skill.html:hover {
+    background-color: #077e98;
+    color: #000000;
+}
+
+.skill.css:hover {
+    background-color: #077e98;
+    color: #000000;
+}
+
+.skill.typescript:hover {
+    background-color: #077e98;
+    color: #000000;
+}
+
+
+.html{
+    background-color: #0c3943;
+    color: azure;
+    border-radius: 4px;
+    margin: 5px;
+
+}
+
+.css{
+    background-color: #0c3943;
+    color:azure;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.typescript{
+    background-color: #0c3943;
+    color:azure;
+    border-radius: 4px;
+    margin: 5px;
+}
+.html-hover{
+    background-color: #077e98;
+    color: #000000;
+}
+
+#toggle-skills {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #0c3943;
+    color:azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+#toggle-skills:hover {
+    background-color: #077e98;
+    color: #000000;
+    
+}
